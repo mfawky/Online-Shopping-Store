@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1622847589 source:d:\cproject\data structures\onlineshoppingstore\global.c
+	"Global.h"
+	<stdlib.h>
+	<stdio.h>
+
+1622845619 d:\cproject\data structures\onlineshoppingstore\global.h
+
+1622853885 source:d:\cproject\data structures\onlineshoppingstore\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Global.h"
+	"user.h"
+	"Ownerr.h"
+
+1622850098 source:d:\cproject\data structures\onlineshoppingstore\user.c
+	"user.h"
+	"Global.h"
+	<stdlib.h>
+
+1622846165 d:\cproject\data structures\onlineshoppingstore\user.h
+	"Global.h"
+
+1622850922 source:d:\cproject\data structures\onlineshoppingstore\ownerr.c
+	"Global.h"
+	"Ownerr.h"
+	<stdio.h>
+	<stdlib.h>
+
+1622850406 d:\cproject\data structures\onlineshoppingstore\ownerr.h
+

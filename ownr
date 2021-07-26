@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include "Global.h"
+#include "Owner.h"
+int main() {
+
+    Product p1 ={"faw2y" , 20201872 , 5 , 1, 3};
+    Product p2 ={"Mustafa" , 20201883 , 100000 , 1 , 500 };
+    Product p3 = {"Omar" , 20201853 , 1000000 , 1 , 1};
+    Stack s;
+    CreateStack(&s);
+    PushProduct(&s, p1);
+    PushProduct(&s , p2);
+    List l;
+    CreateList(&l);
+    TransferSTL(&s , &l);
+
+
+    addProduct(&l,p3);
+    displayProducts(&l);
+
+
+    removeProduct(&l , 20201883);
+    displayProducts(&l);
+    return 0;
+}
